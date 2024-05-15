@@ -53,8 +53,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Ishant Bhurani.</span>{" "}
-        I&apos;m a <span className="font-bold">Flutter developer</span>. I enjoy
-        building <span className="italic">apps</span>, and solving complex
+        I&apos;m a <span className="font-bold">full-stack developer</span>. I
+        enjoy building <span className="italic">apps</span>, and solving complex
         problems.
       </motion.h1>
 
