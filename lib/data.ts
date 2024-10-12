@@ -1,6 +1,6 @@
+import deluxxeImg from "@/public/deluxxeImg.png";
 import flutterTodoImg from "@/public/flutterTodoImg.jpg";
 import moneytrackerImg from "@/public/moneytrackerImg.png";
-import deluxxeImg from "@/public/deluxxeImg.png";
 
 export const links = [
   {
@@ -22,14 +22,6 @@ export const links = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Flutter Todo App",
-    description:
-      "An elegant Todo App built with Flutter. It supports dark mode, provider, and data persistence with Isar.",
-    tags: ["Flutter", "Provider", "Isar", "Shared Preferences"],
-    url: "https://github.com/ishantbhurani/flutter-todo-app",
-    imageUrl: flutterTodoImg,
-  },
   {
     title: "Money Tracker",
     description:
@@ -53,6 +45,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Tailwind", "Firebase"],
     url: "https://deluxxe.netlify.app",
     imageUrl: deluxxeImg,
+  },
+  {
+    title: "Flutter Todo App",
+    description:
+      "An elegant Todo App built with Flutter. It supports dark mode, provider, and data persistence with Isar.",
+    tags: ["Flutter", "Provider", "Isar", "Shared Preferences"],
+    url: "https://github.com/ishantbhurani/flutter-todo-app",
+    imageUrl: flutterTodoImg,
   },
 ] as const;
 
